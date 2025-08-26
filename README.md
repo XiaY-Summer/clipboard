@@ -3,3 +3,9 @@
 macOS记下录剪切板  
 轻量化，体积不到1mb  
 ![image](https://github.com/XiaY-Summer/clipboard/blob/main/sc.png)
+
+## 注意！
+如果显示损坏，请在终端输入：
+```
+sudo xattr -rd com.apple.quarantine /Applications/Clipboard.app/
+```
